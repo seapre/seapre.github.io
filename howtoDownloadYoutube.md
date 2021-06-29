@@ -6,6 +6,7 @@
 ## 1. VLC to download 
 * https://www.videolan.org/
 * download and install VLC 
+* free and open source
 
 ## 2. use VLC to download 
 * https://www.inovideoapp.com/how-to/download-video-with-vlc/
@@ -14,3 +15,4 @@
 * https://www.inovideoapp.com/
 * download and install Inovideo
 * follow instruction to download 
+* need money, use trial version
