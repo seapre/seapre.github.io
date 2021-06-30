@@ -16,3 +16,9 @@
 * download and install Inovideo
 * follow instruction to download 
 * need money, use trial version
+
+## 4. how to play video off line 
+* save videos on hard drive 
+* copy videos to USB thumb drives
+* plug USB into projector, other computers, or phones
+* open a media player to play videos 
