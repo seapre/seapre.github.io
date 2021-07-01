@@ -24,4 +24,7 @@
 * plug USB into projector, other computers, or phones
 * open a media player to play videos 
 
-* [This page](https://seapre.github.io/blob/main/howtoDownloadYoutube)
+## 5. coding web sites 
+* [codingame](https://www.codingame.com/)
+* [codecombat](https://codecombat.com/play)
+* [checkio](https://checkio.org/)
