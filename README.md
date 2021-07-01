@@ -24,4 +24,4 @@
 * plug USB into projector, other computers, or phones
 * open a media player to play videos 
 
-* [This page](https://seapre.github.io/blob/main/howtoDownloadYoutube.md)
+* [This page](https://seapre.github.io/blob/main/howtoDownloadYoutube)
