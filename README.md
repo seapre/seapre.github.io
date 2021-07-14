@@ -16,9 +16,9 @@
   - named as HelloWorld
 * create file main.go 
 - under HelloWorld folder, create a file named as main.go 
- -- main.go --
-package main
+- -- main.go --
 ```go
+package main
 import "fmt"
 
 func main() {
