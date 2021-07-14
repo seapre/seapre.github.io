@@ -7,3 +7,29 @@
 * Golang
 * golang extension
 * go mod init 
+
+## 2. HelloWorld
+* The first application: HelloWorld
+* create a folder named HelloWorld
+- in vscode, right click and create folder 
+ - new folder 
+  - named as HelloWorld
+* create file main.go 
+- under HelloWorld folder, create a file named as main.go 
+ -- main.go --
+package main
+```go
+import "fmt"
+
+func main() {
+	fmt.Println("Hello, World")
+}
+```
+
+* run the application 
+- run it directly 
+ > cd HelloWorld
+ > go run main.go 
+- compile and run 
+ > go build
+ > ./HelloWorld.exe 
