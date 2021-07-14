@@ -33,8 +33,17 @@ func main() {
 
 * run the application 
 - run it directly 
+
+```cmd
  > cd HelloWorld
+
  > go run main.go 
+
+```
 - compile and run 
+
+```cmd
  > go build
+
  > ./HelloWorld.exe 
+```
