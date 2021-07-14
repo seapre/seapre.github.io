@@ -90,3 +90,10 @@ func printMsg(msg string){
 }
 
 ```
+
+* run it again 
+
+```cmd
+ > go build 
+ > ./HelloWorld.exe 
+```
