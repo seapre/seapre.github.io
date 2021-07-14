@@ -17,14 +17,16 @@
 * create file main.go 
 - under HelloWorld folder, create a file named as main.go 
 - -- main.go --
-```go
+````go
+
 package main
 import "fmt"
 
 func main() {
 	fmt.Println("Hello, World")
 }
-```
+````
+
 
 * run the application 
 - run it directly 
