@@ -47,3 +47,46 @@ func main() {
 
  > ./HelloWorld.exe 
 ```
+## 3. call another function
+* go application start from main() function 
+* main() function could call another functions
+* comment started with //, for programmer only, go ignore codes behind //
+## 3.1 printMsg() function
+* printMsg() function receives a string, and print it out to the console
+* -- printMsg() --
+
+```go
+func printMsg(msg string){
+ fmt.Println(msg)
+}
+```
+* modify main.go as below
+* -- main.go --
+
+```golang
+
+package main
+import "fmt"
+
+// main function, started point of go
+func main() {
+  // print out directly
+	fmt.Println("Hello, World")
+
+  // call printMsg() to print out 
+  printMsg("Hello, World")
+
+  // define a variable to store a string
+  var str = "Hello, Gavin & Dylan"
+
+  // pass the variable to printMsg()
+  printMsg(str)
+
+}
+
+// print out a string 
+func printMsg(msg string){
+ fmt.Println(msg)
+}
+
+```
