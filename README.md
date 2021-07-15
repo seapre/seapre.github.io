@@ -238,5 +238,10 @@ func getUserNumbers() (int, int) {
 
 }
 
+```
+* run it
 
+```cmd
+ > go build
+ > ./calc.exe
 ```
