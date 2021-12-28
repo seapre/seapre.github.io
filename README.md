@@ -37,18 +37,18 @@ print(4 + 5)
 * what is computation
 + WHAT DOES A COMPUTER DO
 - Fundamentally:
-◦ performs calculations
+. performs calculations
 a billion calculations per second!
-◦ remembers results
+. remembers results
 100s of gigabytes of storage!
 - What kinds of calculations?
-◦ built-in to the language
-◦ ones that you define as the programmer
+. built-in to the language
+. ones that you define as the programmer
 - computers only know what you tell them
 
 + TYPES OF KNOWLEDGE
 - declarative knowledge is statements of fact. 
-◦ someone will win a Google 
+. someone will win a Google 
 Cardboard before class ends
 - imperative knowledge is a recipe or “how-to”. 
 1) Students sign up for raffle
@@ -79,9 +79,9 @@ g      g*g      x/g    (g+x/g)/2
 + COMPUTERS ARE MACHINES
 - how to capture a recipe in a mechanical process
 - fixed program computer
-◦ calculator
+. calculator
 - stored program computer
-◦ machine stores and executes instructions
+. machine stores and executes instructions
 
 + BASIC MACHINE ARCHITECTURE
           MEMORY
@@ -92,13 +92,13 @@ UNIT               LOGIC UNIT
 
 + STORED PROGRAM COMPUTER
 - sequence of instructions stored inside computer
-◦ built from predefined set of primitive instructions
+. built from predefined set of primitive instructions
 1) arithmetic and logic
 2) simple tests
 3) moving data
 - special program (interpreter) executes each instruction in order
-◦ use tests to change flow of control through sequence
-◦ stop when done
+. use tests to change flow of control through sequence
+. stop when done
 
 + BASIC PRIMITIVES
 - Turing showed that you can compute anything using 6 
@@ -119,58 +119,58 @@ meanings in a programming language
 
 + ASPECTS OF LANGUAGES
 - primitive constructs
-◦ English: words
-◦ programming language: numbers, strings, simple 
+. English: words
+. programming language: numbers, strings, simple 
 operators
 
 + ASPECTS OF LANGUAGES
 - syntax
-◦ English: "cat dog boy"  not syntactically valid
+. English: "cat dog boy"  not syntactically valid
 "cat hugs boy"  syntactically valid
-◦ programming language: "hi"5  not syntactically valid
+. programming language: "hi"5  not syntactically valid
 3.2*5  syntactically valid
 
 - static semantics is which syntactically valid strings have meaning
-◦ English: "I are hungry"  syntactically validbut static semantic error
-◦ programming language: 3.2*5  syntactically valid
+. English: "I are hungry"  syntactically validbut static semantic error
+. programming language: 3.2*5  syntactically valid
 3+"hi"  static semantic error
 
 - semantics is the meaning associated with a 
 syntactically correct string of symbols with no static semantic errors
-◦ English: can have many meanings "Flying planes can be dangerous"
-◦ programming languages: have only one meaning but may not be what programmer intended
+. English: can have many meanings "Flying planes can be dangerous"
+. programming languages: have only one meaning but may not be what programmer intended
 
 WHERE THINGS GO WRONG
 - syntactic errors
-◦ common and easily caught
+. common and easily caught
 - static semantic errors
-◦ some languages check for these before running program
-◦ can cause unpredictable behavior
+. some languages check for these before running program
+. can cause unpredictable behavior
 - no semantic errors but different meaning than what programmer intended
-◦ program crashes, stops running
-◦ program runs forever
-◦ program gives an answer but different than expected
+. program crashes, stops running
+. program runs forever
+. program gives an answer but different than expected
 
 
 * PYTHON PROGRAMS
 - a program is a sequence of definitions and commands
-◦ definitions evaluated 
-◦ commands executed by Python interpreter in a shell
+. definitions evaluated 
+. commands executed by Python interpreter in a shell
 - commands (statements) instruct interpreter to do 
 something
 - can be typed directly in a shell or stored in a file that 
 is read into the shell and evaluated
-◦ Problem Set 0 will introduce you to these in Anaconda
+. Problem Set 0 will introduce you to these in Anaconda
 
 * OBJECTS
 - programs manipulate data objects
 - objects have a type that defines the kinds of things 
 programs can do to them
-◦ Ana is a human so she can walk, speak English, etc.
-◦ Chewbacca is a wookie so he can walk, “mwaaarhrhh”, etc.
+. Ana is a human so she can walk, speak English, etc.
+. Chewbacca is a wookie so he can walk, “mwaaarhrhh”, etc.
 - objects are
-◦ scalar (cannot be subdivided)
-◦ non-scalar (have internal structure that can be accessed)
+. scalar (cannot be subdivided)
+. non-scalar (have internal structure that can be accessed)
 
 * SCALAR OBJECTS
 - int – represent integers, ex. 5
@@ -213,10 +213,10 @@ In [12]: print(3+2)
 * SIMPLE OPERATIONS
 - parentheses used to tell Python to do these operations first
 - operator precedence without parentheses
-◦ **
-◦ *
-◦ /
-◦ + and – executed left to right, as appear in expression
+. **
+. *
+. /
+. + and – executed left to right, as appear in expression
 
 * BINDING VARIABLES AND VALUES
 - equal sign is an assignment of a value to a variable name
@@ -258,7 +258,7 @@ radius = radius+1
 
 * lec1.py
 
-```python
+```Python
 pi = 3.14159
 radius = 2.2
 # area of circle equation <- this is a comment
