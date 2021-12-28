@@ -36,29 +36,29 @@ print(4 + 5)
 ## 4. MIT Python 6.0001 LECTURE 1
 * what is computation
 + WHAT DOES A COMPUTER DO
- Fundamentally:
+- Fundamentally:
 ◦ performs calculations
 a billion calculations per second!
 ◦ remembers results
 100s of gigabytes of storage!
- What kinds of calculations?
+- What kinds of calculations?
 ◦ built-in to the language
 ◦ ones that you define as the programmer
- computers only know what you tell them
+- computers only know what you tell them
 
 + TYPES OF KNOWLEDGE
- declarative knowledge is statements of fact. 
+- declarative knowledge is statements of fact. 
 ◦ someone will win a Google 
 Cardboard before class ends
- imperative knowledge is a recipe or “how-to”. 
+- imperative knowledge is a recipe or “how-to”. 
 1) Students sign up for raffle
 2) Ana opens her IDE
 3) Ana chooses a random number between 1st and nth responder
 4) Ana finds the number in the responders sheet. Winner!
 
 + A NUMERICAL EXAMPLE
- square root of a number x is y such that y*y = x
- recipe for deducing square root of a number x (16)
+- square root of a number x is y such that y*y = x
+- recipe for deducing square root of a number x (16)
 1) Start with a guess, g
 2) If g*g is close enough to x, stop and say g is the answer 
 3) Otherwise make a new guess by averaging g and x/g
@@ -77,10 +77,10 @@ g      g*g      x/g    (g+x/g)/2
 1+2+3 = an algorithm!
 
 + COMPUTERS ARE MACHINES
- how to capture a recipe in a mechanical process
- fixed program computer
+- how to capture a recipe in a mechanical process
+- fixed program computer
 ◦ calculator
- stored program computer
+- stored program computer
 ◦ machine stores and executes instructions
 
 + BASIC MACHINE ARCHITECTURE
@@ -91,105 +91,105 @@ UNIT               LOGIC UNIT
       INPUT       OUTPUT
 
 + STORED PROGRAM COMPUTER
- sequence of instructions stored inside computer
+- sequence of instructions stored inside computer
 ◦ built from predefined set of primitive instructions
 1) arithmetic and logic
 2) simple tests
 3) moving data
- special program (interpreter) executes each instruction in order
+- special program (interpreter) executes each instruction in order
 ◦ use tests to change flow of control through sequence
 ◦ stop when done
 
 + BASIC PRIMITIVES
- Turing showed that you can compute anything using 6 
+- Turing showed that you can compute anything using 6 
 primitives
- modern programming languages have more 
+- modern programming languages have more 
 convenient set of primitives
- can abstract methods to create new primitives
- anything computable in one language is computable in 
+- can abstract methods to create new primitives
+- anything computable in one language is computable in 
 any other programming language
 
 + CREATING RECIPES
- a programming language provides a set of primitive 
+- a programming language provides a set of primitive 
 operations
- expressions are complex but legal combinations of 
+- expressions are complex but legal combinations of 
 primitives in a programming language
- expressions and computations have values and 
+- expressions and computations have values and 
 meanings in a programming language
 
 + ASPECTS OF LANGUAGES
- primitive constructs
+- primitive constructs
 ◦ English: words
 ◦ programming language: numbers, strings, simple 
 operators
 
 + ASPECTS OF LANGUAGES
- syntax
+- syntax
 ◦ English: "cat dog boy"  not syntactically valid
 "cat hugs boy"  syntactically valid
 ◦ programming language: "hi"5  not syntactically valid
 3.2*5  syntactically valid
 
- static semantics is which syntactically valid strings have meaning
+- static semantics is which syntactically valid strings have meaning
 ◦ English: "I are hungry"  syntactically validbut static semantic error
 ◦ programming language: 3.2*5  syntactically valid
 3+"hi"  static semantic error
 
- semantics is the meaning associated with a 
+- semantics is the meaning associated with a 
 syntactically correct string of symbols with no static semantic errors
 ◦ English: can have many meanings "Flying planes can be dangerous"
 ◦ programming languages: have only one meaning but may not be what programmer intended
 
 WHERE THINGS GO WRONG
- syntactic errors
+- syntactic errors
 ◦ common and easily caught
- static semantic errors
+- static semantic errors
 ◦ some languages check for these before running program
 ◦ can cause unpredictable behavior
- no semantic errors but different meaning than what programmer intended
+- no semantic errors but different meaning than what programmer intended
 ◦ program crashes, stops running
 ◦ program runs forever
 ◦ program gives an answer but different than expected
 
 
 * PYTHON PROGRAMS
- a program is a sequence of definitions and commands
+- a program is a sequence of definitions and commands
 ◦ definitions evaluated 
 ◦ commands executed by Python interpreter in a shell
- commands (statements) instruct interpreter to do 
+- commands (statements) instruct interpreter to do 
 something
- can be typed directly in a shell or stored in a file that 
+- can be typed directly in a shell or stored in a file that 
 is read into the shell and evaluated
 ◦ Problem Set 0 will introduce you to these in Anaconda
 
 * OBJECTS
- programs manipulate data objects
- objects have a type that defines the kinds of things 
+- programs manipulate data objects
+- objects have a type that defines the kinds of things 
 programs can do to them
 ◦ Ana is a human so she can walk, speak English, etc.
 ◦ Chewbacca is a wookie so he can walk, “mwaaarhrhh”, etc.
- objects are
+- objects are
 ◦ scalar (cannot be subdivided)
 ◦ non-scalar (have internal structure that can be accessed)
 
 * SCALAR OBJECTS
- int – represent integers, ex. 5
- float – represent real numbers, ex. 3.27
- bool – represent Boolean values True and False
- NoneType – special and has one value, None
- can use type() to see the type of an object
+- int – represent integers, ex. 5
+- float – represent real numbers, ex. 3.27
+- bool – represent Boolean values True and False
+- NoneType – special and has one value, None
+- can use type() to see the type of an object
 >>> type(5)
 int
 >>> type(3.0)
 float
 
 * TYPE CONVERSIONS (CAST)
- can convert object of one type to another
- float(3) converts integer 3 to float 3.0
- int(3.9) truncates float 3.9 to integer 3
+- can convert object of one type to another
+- float(3) converts integer 3 to float 3.0
+- int(3.9) truncates float 3.9 to integer 3
 
 * PRINTING TO CONSOLE
- to show output from code to a user, use print
+- to show output from code to a user, use print
 command
 In [11]: 3+2
 Out[11]: 5
@@ -197,45 +197,45 @@ In [12]: print(3+2)
 5
 
 * EXPRESSIONS
- combine objects and operators to form expressions
- an expression has a value, which has a type
- syntax for a simple expression
+- combine objects and operators to form expressions
+- an expression has a value, which has a type
+- syntax for a simple expression
 <object> <operator> <object>
 
 * OPERATORS ON ints and floats
- i+j  the sum
- i-j  the difference
- i*j  the product
- i/j  division
- i%j  the remainder when i is divided by j
- i**j  i to the power of j
+- i+j  the sum
+- i-j  the difference
+- i*j  the product
+- i/j  division
+- i%j  the remainder when i is divided by j
+- i**j  i to the power of j
 
 * SIMPLE OPERATIONS
- parentheses used to tell Python to do these operations first
- operator precedence without parentheses
+- parentheses used to tell Python to do these operations first
+- operator precedence without parentheses
 ◦ **
 ◦ *
 ◦ /
 ◦ + and – executed left to right, as appear in expression
 
 * BINDING VARIABLES AND VALUES
- equal sign is an assignment of a value to a variable name
+- equal sign is an assignment of a value to a variable name
 pi = 3.14159
 pi_approx = 22/7
- value stored in computer memory
- an assignment binds name to value
- retrieve value associated with name or variable by invoking the name, by typing pi
+- value stored in computer memory
+- an assignment binds name to value
+- retrieve value associated with name or variable by invoking the name, by typing pi
 
 * ABSTRACTING EXPRESSIONS
- why give names to values of expressions?
- to reuse names instead of values
- easier to change code later
+- why give names to values of expressions?
+- to reuse names instead of values
+- easier to change code later
 pi = 3.14159
 radius = 2.2
 area = pi*(radius**2)
 
 * PROGRAMMING vs MATH
- in programming, you do not “solve for x”
+- in programming, you do not “solve for x”
 pi = 3.14159
 radius = 2.2
 # area of circle
@@ -243,9 +243,9 @@ area = pi*(radius**2)
 radius = radius+1
 
 * CHANGING BINDINGS
- can re-bind variable names using new assignment statements
- previous value may still stored in memory but lost the handle for it
- value for area does not change until you tell the computer to do the calculation again
+- can re-bind variable names using new assignment statements
+- previous value may still stored in memory but lost the handle for it
+- value for area does not change until you tell the computer to do the calculation again
 
 pi --> 3.14
 radius  2.2 --> 3.2
@@ -257,6 +257,7 @@ area = pi*(radius**2)
 radius = radius+1
 
 * lec1.py
+
 ```python
 pi = 3.14159
 radius = 2.2
