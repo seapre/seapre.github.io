@@ -239,12 +239,14 @@ radius = 2.2
 area = pi*(radius**2)
 
 * PROGRAMMING vs MATH
-- in programming, you do not “solve for x”
+- in programming, you do not "solve for x"
+```python
 pi = 3.14159
 radius = 2.2
 # area of circle
 area = pi*(radius**2)
 radius = radius+1
+```
 
 * CHANGING BINDINGS
 - can re-bind variable names using new assignment statements
@@ -260,7 +262,7 @@ radius = 2.2
 area = pi*(radius**2)
 radius = radius+1
 
-* lec1.py
+* lec1.py, script file 
 
 ```Python
 pi = 3.14159
