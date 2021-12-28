@@ -13,7 +13,7 @@
 * in vscode
 -> Extension, search python and install
 
-## 4. Python
+## 3. Python print()
 * run in shell 
 + check version 
 > python --version
