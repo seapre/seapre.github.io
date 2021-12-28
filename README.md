@@ -28,6 +28,7 @@
 + create a file, hello.py
 ```python
 print("Hello world!")
+print(4 + 5)
 ```
 + run the script 
 > python .\hello.py
