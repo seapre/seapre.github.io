@@ -179,8 +179,10 @@ programs can do to them
 - NoneType – special and has one value, None
 - can use type() to see the type of an object
 >>> type(5)
+
 int
 >>> type(3.0)
+
 float
 
 * TYPE CONVERSIONS (CAST)
@@ -189,18 +191,20 @@ float
 - int(3.9) truncates float 3.9 to integer 3
 
 * PRINTING TO CONSOLE
-- to show output from code to a user, use print
-command
+- to show output from code to a user, use print command
 In [11]: 3+2
+
 Out[11]: 5
+
 In [12]: print(3+2)
+
 5
 
 * EXPRESSIONS
 - combine objects and operators to form expressions
 - an expression has a value, which has a type
 - syntax for a simple expression
-<object> <operator> <object>
+object  operator   object
 
 * OPERATORS ON ints and floats
 - i+j  the sum
