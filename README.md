@@ -125,15 +125,15 @@ operators
 
 + ASPECTS OF LANGUAGES
 - syntax
-. English: "cat dog boy"  not syntactically valid
-"cat hugs boy"  syntactically valid
-. programming language: "hi"5  not syntactically valid
-3.2*5  syntactically valid
+. English: "cat dog boy" -- not syntactically valid
+"cat hugs boy" -- syntactically valid
+. programming language: "hi"5 -- not syntactically valid
+3.2*5 -- syntactically valid
 
 - static semantics is which syntactically valid strings have meaning
-. English: "I are hungry"  syntactically validbut static semantic error
-. programming language: 3.2*5  syntactically valid
-3+"hi"  static semantic error
+. English: "I are hungry" -- syntactically validbut static semantic error
+. programming language: 3.2*5 -- syntactically valid
+3+"hi" -- static semantic error
 
 - semantics is the meaning associated with a 
 syntactically correct string of symbols with no static semantic errors
@@ -207,12 +207,12 @@ In [12]: print(3+2)
 object  operator   object
 
 * OPERATORS ON ints and floats
-- i+j  the sum
-- i-j  the difference
-- i*j  the product
-- i/j  division
-- i%j  the remainder when i is divided by j
-- i**j  i to the power of j
+- i+j -- the sum
+- i-j -- the difference
+- i*j -- the product
+- i/j -- division
+- i%j -- the remainder when i is divided by j
+- i**j -- i to the power of j
 
 * SIMPLE OPERATIONS
 - parentheses used to tell Python to do these operations first
