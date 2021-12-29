@@ -19,12 +19,14 @@
 > python --version
 + if not working, goto settings -> Manage App execution aliases -> Python -> Off 
 + start python shell 
+```python
 > python 
 >>> print("Hello world!")
 
 >>> print( 4 + 5 )
 
 >>> exit() 
+```
 
 * python script
 + create a file, hello.py
