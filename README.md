@@ -21,7 +21,9 @@
 + start python shell 
 > python 
 >>> print("Hello world!")
+
 >>> print( 4 + 5 )
+
 >>> exit() 
 
 * python script
