@@ -17,7 +17,7 @@
 * run in shell 
 + check version 
 > python --version
-
++ if not working, goto settings -> Manage App execution aliases -> Python -> Off 
 + start python shell 
 > python 
 >>> print("Hello world!")
@@ -37,13 +37,13 @@ print(4 + 5)
 * what is computation
 + WHAT DOES A COMPUTER DO
 - Fundamentally:
-. performs calculations
-a billion calculations per second!
-. remembers results
-100s of gigabytes of storage!
+1. performs calculations
+   a billion calculations per second!
+2. remembers results
+   100s of gigabytes of storage!
 - What kinds of calculations?
-. built-in to the language
-. ones that you define as the programmer
+1. built-in to the language
+2.  ones that you define as the programmer
 - computers only know what you tell them
 
 + TYPES OF KNOWLEDGE
