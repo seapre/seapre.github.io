@@ -2,12 +2,12 @@
 
 ## 1. install vscode
 * download from 
- https://code.visualstudio.com/Download#
+ [download](https://code.visualstudio.com/Download#)
 * double click to install 
 
 ## 2. install Python
 * download from 
- [https://www.python.org/ftp/python/3.11.0/python-3.11.0b5-amd64.exe]
+ [download](https://www.python.org/ftp/python/3.11.0/python-3.11.0b5-amd64.exe)
 + tick "Add to Path"
 
 * in vscode
@@ -311,4 +311,4 @@ a_very_long_variable_name_dont_name_them_this_long_pls = 0
 # notice that Tabnine also automatically adds the closed parentheses for you!
 ```
 * review the video
-  [\\\s2\image\doc\MIT-courses\MIT-lec\MIT6_006F11_lec01_300k.mp4]
+  [video1](file:///s2/image/doc/MIT-courses/MIT-lec/MIT6_006F11_lec01_300k.mp4)
