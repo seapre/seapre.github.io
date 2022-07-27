@@ -310,3 +310,5 @@ a_very_long_variable_name_dont_name_them_this_long_pls = 0
 # use autocomplete to write a line that prints the value of that long variable
 # notice that Tabnine also automatically adds the closed parentheses for you!
 ```
+* review the video
+  [\\s2\image\doc\MIT-courses\MIT-lec\MIT6_006F11_lec01_300k.mp4]
