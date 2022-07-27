@@ -7,7 +7,7 @@
 
 ## 2. install Python
 * download from 
- https://www.python.org/ftp/python/3.11.0/python-3.11.0b5-amd64.exe
+ [https://www.python.org/ftp/python/3.11.0/python-3.11.0b5-amd64.exe]
 + tick "Add to Path"
 
 * in vscode
