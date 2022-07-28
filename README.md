@@ -311,7 +311,5 @@ a_very_long_variable_name_dont_name_them_this_long_pls = 0
 # notice that Tabnine also automatically adds the closed parentheses for you!
 ```
 * review the video
-  
-  [video1](file://s2/image/doc/MIT-courses/MIT-lec/MIT6_006F11_lec01_300k.mp4)
-  [video2](\\s2\image\doc\MIT-courses\MIT-lec\MIT6_006F11_lec01_300k.mp4)
-  \\\s2\image\doc\MIT-courses\MIT-lec\MIT6_006F11_lec01_300k.mp4
+-- copy and paste below into file explorrer to play video
+ \\\s3\nms\MIT-lectures\MIT-6-001-Python\MIT6_0001F16_Lecture_01_300k.mp4
