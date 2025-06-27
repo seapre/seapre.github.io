@@ -1,7 +1,15 @@
 # git cmd to maintain seapre.github.io
+* README.md
+ seapre.github.io, always show this content from site branch
+ after edited, commit to github with site branch
 * new branch: site 
  > git checkout -b site
  > git push origin site 
+- 3 branches: 
+  main -- main codes, after dev, and site reviewed no issues, then merge to main
+  site -- published for seapre.github.io, merge from dev
+  dev  -- development, ongoing work
+
 * change source to site branch in github pages
  -> github pages 
   -> Settings
