@@ -2,6 +2,8 @@
 * README.md
  seapre.github.io, always show this content from site branch
  after edited, commit to github with site branch
+ the branch to show could be changed in github pages settings
+ 
 * new branch: site 
  > git checkout -b site
  > git push origin site 
@@ -32,4 +34,4 @@
 > git add -A 
 > git commit -m 'merge from main'
 > git push origin site 
-* view changes in seapre.github.io 
+* view changes in seapre.github.io, need to wait for github to update in minutes
