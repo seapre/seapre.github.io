@@ -17,3 +17,6 @@
 * in above steps, folder only /root, /docs available to select, no /html
 * create a new file named index.html in the root
 * or create a new folder named docs, then create index.html inside docs
+* /root/index.html is active and replace README.md
+* /root is pointing to seapre.github.io, so you can edit it directly in github 
+
