@@ -17,6 +17,42 @@
         <li>.github account - create an account at github.com, could use google account</li>
       </ul>
       <h2>2. Gemeni-cli</h2>
+      <h3>2.1 node.js</h3>
+      <p>Install node.js</p>
+      <pre><code>
+- update
+ > wsl --update
+ * wsl update
+  $ sudo apt update
+  $ sudo apt upgrade -y
+
+## 1. node.js
+* install node.js
+  $ sudo apt install nodejs
+* verify installation
+  $ node -v
+
+## 2. install gemini-cli
+1. update pkg
+ $ sudo apt update
+ $ sudo apt upgrade -y
+2. nvm install 
+  $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+  $ exit
+* install node
+ $ nvm install node 
+ $ nvm use node 
+ $ nvm alias default node # set default node version to latest for new shells
+ $ node --version
+
+* install gemini-cli 
+  $ npm install -g @google/gemini-cli
+  $ gemini --version 
+* start gemini
+ $ gemini
+- use google login to autherize via web browser
+      </code></pre>
+
     </div>
   </body>
 </html>
