@@ -13,3 +13,7 @@
   This will tell GitHub Pages to look for your index.html file inside the html
   directory.
 
+## 2. create index.html
+* in above steps, folder only /root, /docs available to select, no /html
+* create a new file named index.html in the root
+* or create a new folder named docs, then create index.html inside docs
