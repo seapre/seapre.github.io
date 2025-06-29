@@ -45,10 +45,14 @@ body {
   background-color: var(--heading-color);
   color: var(--container-bg);
   border: none;
-  padding: 10px 15px;
-  border-radius: 5px;
+  width: 40px; /* Make it square */
+  height: 40px; /* Make it square */
+  border-radius: 50%; /* Make it circular */
   cursor: pointer;
-  font-size: 0.9em;
+  font-size: 1.2em; /* Increase font size for icon */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: background-color 0.3s, color 0.3s;
 }
 
