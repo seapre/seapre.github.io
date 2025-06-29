@@ -1,22 +1,48 @@
 body {
-  font-family: sans-serif;
-  line-height: 1.5;
-  background-color: #f0f0f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #e0f2f7; /* Light blue background */
   color: #333;
+  margin: 0;
+  padding: 20px;
 }
 
 .container {
   max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* More pronounced shadow */
+  transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+  transform: translateY(-5px); /* Subtle lift on hover */
+}
+
+h1,
+h2,
+h3 {
+  color: #2196f3; /* Material Design Blue 500 */
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 h1 {
-  text-align: center;
-  margin-bottom: 20px;
+  font-size: 2.5em;
+  border-bottom: 2px solid #bbdefb; /* Light blue underline */
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 1.4em;
+  margin-top: 20px;
 }
 
 ul {
@@ -26,4 +52,28 @@ ul {
 
 li {
   margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+li::before {
+  content: '•'; /* Custom bullet point */
+  color: #2196f3;
+  position: absolute;
+  left: 0;
+}
+
+pre {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-left: 5px solid #2196f3; /* Blue left border for code blocks */
+  padding: 15px;
+  margin-bottom: 20px;
+  overflow-x: auto;
+  border-radius: 5px;
+}
+
+code {
+  font-family: 'Consolas', 'Monaco', 'Lucida Console', monospace;
+  color: #c2185b; /* Darker pink for code text */
 }
