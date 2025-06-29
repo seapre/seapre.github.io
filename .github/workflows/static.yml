@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-# Simple workflow for deploying static content to GitHub Pages
->>>>>>> daff59fbe13cfa57a449fca03832e4e842d6abf6
 name: Deploy static content to Pages
 
 on:
@@ -43,8 +39,4 @@ jobs:
           path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
-<<<<<<< HEAD
         uses: actions/deploy-pages@v4
-=======
-        uses: actions/deploy-pages@v4
->>>>>>> daff59fbe13cfa57a449fca03832e4e842d6abf6
