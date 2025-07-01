@@ -16,49 +16,49 @@
     <h2>1. Prerequisites</h2>
 
     <pre><code>
- .winget         - install winget in Windows
- .git            - install git in Windows, use winget to install
- .vscode         - install vscode in Windows, download or use winget
- .wsl            - install wsl in Windows
- .powershell     - install powershell in Windows, use winget to install
- .github account - create an account at github.com, could use google account
-        </code></pre>
+.winget         - install winget in Windows
+.git            - install git in Windows, use winget to install
+.vscode         - install vscode in Windows, download or use winget
+.wsl            - install wsl in Windows
+.powershell     - install powershell in Windows, use winget to install
+.github account - create an account at github.com, could use google account
+</code></pre>
 
     <h2>2. Gemeni-cli</h2>
     <h3>2.1 node.js</h3>
     <h4>2.1.1 install node.js
-      <pre><code>
- - update wsl
- > wsl --update
- * wsl update
-   $ sudo apt update
-   $ sudo apt upgrade -y
+<pre><code>
+update wsl
+wsl --update
+wsl update
+$ sudo apt update
+$ sudo apt upgrade -y
 
 ## 1. node.js
 * install node.js
-  $ sudo apt install nodejs
+$ sudo apt install nodejs
 * verify installation
-  $ node -v
+$ node -v
 
 ## 2. install gemini-cli
 1. update pkg
- $ sudo apt update
- $ sudo apt upgrade -y
-2. nvm install 
-  $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
-  $ exit
+$ sudo apt update
+$ sudo apt upgrade -y
+2. nvm install
+$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+$ exit
 * install node
- $ nvm install node 
- $ nvm use node 
- $ nvm alias default node # set default node version to latest for new shells
- $ node --version
+$ nvm install node
+$ nvm use node
+$ nvm alias default node # set default node version to latest for new shells
+$ node --version
 
-* install gemini-cli 
-  $ npm install -g @google/gemini-cli
-  $ gemini --version 
+* install gemini-cli
+$ npm install -g @google/gemini-cli
+$ gemini --version
 * start gemini
- $ gemini
-- use google login to autherize via web browser
+$ gemini
+use google login to autherize via web browser
       </code></pre>
     </h4>
   </div>
