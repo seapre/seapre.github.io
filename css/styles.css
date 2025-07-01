@@ -120,7 +120,7 @@ li::before {
 pre {
   background-color: var(--pre-bg);
   border: 1px solid var(--pre-border);
-  border-left: 5px solid var(--pre-left-border); /* Blue left border for code blocks */
+  border-left: 0;
   padding: 15px;
   margin-bottom: 20px;
   overflow-x: auto;
