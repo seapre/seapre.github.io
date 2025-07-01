@@ -27,38 +27,25 @@
     <h2>2. Gemeni-cli</h2>
     <h3>2.1 node.js</h3>
     <h4>2.1.1 install node.js
-<pre><code>
-update wsl
-wsl --update
-wsl update
-$ sudo apt update
-$ sudo apt upgrade -y
+      <pre><code>
+* node.js v18 or higher
+> winget install OpenJS.NodeJS
+> node --version
+v24.3.0
 
-## 1. node.js
-* install node.js
-$ sudo apt install nodejs
-* verify installation
-$ node -v
-
-## 2. install gemini-cli
-1. update pkg
-$ sudo apt update
-$ sudo apt upgrade -y
-2. nvm install
-$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
-$ exit
-* install node
-$ nvm install node
-$ nvm use node
-$ nvm alias default node # set default node version to latest for new shells
-$ node --version
-
-* install gemini-cli
-$ npm install -g @google/gemini-cli
-$ gemini --version
-* start gemini
-$ gemini
-use google login to autherize via web browser
+* install the gemini cli
+> npm install -g @google/gemini-cli
+* get started
+> gemini 
+-> Select THeme
+-Default
+-Login with Google
+-Web autherized, phone confirm
+* close and start
+-close, ctrl + c, 2 times
+> /quit
+-start
+> gemini
       </code></pre>
     </h4>
   </div>
